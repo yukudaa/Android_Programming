@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp" >
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름 : 이유구"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="201858028"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="학년?"
+        android:textSize="20dp" />
+
+
+    <RadioGroup
+        android:id="@+id/Rgroup1"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/RdoAge1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="1학년" />
+
+        <RadioButton
+            android:id="@+id/RdoAge2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:text="2학년" />
+
+        <RadioButton
+            android:id="@+id/RdoAge3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="3학년" />
+
+        <RadioButton
+            android:id="@+id/RdoAge4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4학년" />
+
+    </RadioGroup>
+
+
+    <ImageView
+        android:id="@+id/ImgPet"
+        android:layout_weight="1"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:src="@drawable/cat"/>
+
+    <Button
+        android:id="@+id/BtnOK"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="다음 사진" />
+
+</LinearLayout>
